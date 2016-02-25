@@ -1,0 +1,15 @@
+
+/* TEAM */
+	Owner: Andy Cheng 
+	Contact: ccjeng [at] gmail.com
+	Twitter: @ccjeng
+                            
+/* THANKS */
+	GitHub
+
+/* SITE */
+	Last update:2016/02/25
+	Language: English
+	Doctype:HTML5
+	IDE: Sublime Text
+
