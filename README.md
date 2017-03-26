@@ -1,4 +1,4 @@
-[ccjeng.com] (http://ccjeng.com) 
+[ccjeng.com](http://ccjeng.com) 
 
 **License**
-[MIT] (http://ccjeng.mit-license.org/)
+[MIT](http://ccjeng.mit-license.org/)
