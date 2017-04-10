@@ -1,1 +1,0 @@
-$(document).ready(function(){console.log("-- Keyboard Farmer -- "),$("#fullpage").fullpage({navigation:!0,navigationPosition:"right"})});
