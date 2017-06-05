@@ -59,8 +59,8 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 
 ### 测试与建构
 
-#### 执行测试集
-- 此命令能在浏览器执行测试集 `gulp test`
+#### 执行测试集
+- 此命令能在浏览器执行测试集 `gulp test`
 - 此命令能在NodeJs执行测试集 `jasmine`
 
 #### 执行 ESLint
