@@ -20,7 +20,7 @@
 
 #### 执行 NodeJs 端
 
-要执行NodeJs端，你需要一个**公用可路由的IP位址**、**域名**和**SSL证书**（可从 [letsencrypt.org](https://letsencrypt.org/) 取得免费SSL证书，並执行`clients/nodejs/index.js`以开启NodeJs端。
+要执行 NodeJs 端，你需要一个**公用可路由的IP位址**、**域名**和**SSL证书**（可从 [letsencrypt.org](https://letsencrypt.org/) 取得免费SSL证书，並执行 `clients/nodejs/index.js` 以开启NodeJs端。
 
 ```bash
 cd clients/nodejs/
@@ -48,7 +48,7 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 - gulp：`npm install gulp -g`
 - jasmine 测试框架：`npm install jasmine -g`
 - 模块依赖：`npm install`
-- NodeJs 模块依赖:
+- NodeJs 模块依赖：
 
 	```bash
 	cd src/main/platform/nodejs/
@@ -64,15 +64,15 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 - 此命令能在NodeJs执行测试集 `jasmine`
 
 #### 执行 ESLint
-此命令能执行 ESLint javascript代码检查器 `gulp eslint`
+此命令能执行 ESLint JavaScript 代码检查器 `gulp eslint`
 
 #### 建构
 执行命令 `gulp build`，将所有源码合并到 `dist/{web,web-babel,web-crypto,node}.js`
 
 ## 贡献
 
-若你想贡献本项目，请遵循我们的 [行为准则](/.github/CONDUCT.md) 和 [贡献指引](/.github/CONTRIBUTING.md)
+若你想贡献本项目，请遵循我们的 [行为守则](/.github/CONDUCT.md) 和 [贡献指引](/.github/CONTRIBUTING.md)
 
-## 版权
+## 许可
 
-本项目采用 [Apache License 2.0](./LICENSE) 之规范
+本项目根据 [Apache 2.0 许可](./LICENSE) 授权您使用
