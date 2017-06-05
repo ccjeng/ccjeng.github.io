@@ -39,7 +39,7 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 只要在项目中加入 `<script src="dist/nimiq.js"></script>`
 
 ### API 
-访问 [API 文档](dist/API_DOCUMENTATION.md).
+访问 [API 文档](dist/API_DOCUMENTATION.md)
 
 
 ## 核心开发者
@@ -51,7 +51,7 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 - NodeJs 模块依赖:
 
 	```bash
-	cd src/main/platform/nodejs/
+	cd src/main/platform/nodejs/
 	npm install
 	cd clients/nodejs/
 	npm install
@@ -64,10 +64,10 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 - 此命令能在NodeJs执行测试集 `jasmine`
 
 #### 执行 ESLint
-此命令能执行 ESLint javascript代码检查器 `gulp eslint`
+此命令能执行 ESLint javascript代码检查器 `gulp eslint`
 
 #### 建构
-执行命令 `gulp build`，将所有源码合并到 `dist/{web,web-babel,web-crypto,node}.js`
+执行命令 `gulp build`，将所有源码合并到 `dist/{web,web-babel,web-crypto,node}.js`
 
 ## 贡献
 
