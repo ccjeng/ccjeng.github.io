@@ -53,10 +53,10 @@ Nimiq.get().then($ => {
 - `挖矿机`: [Nimiq.Miner](#miner)
 
 ### 方法
-没有公用方法
+无公用方法
 
 ### 事件
-没有事件
+无事件
 
 
 <a name="network"></a>
@@ -100,7 +100,7 @@ $.network.on('peer-left', peer => console.log(`Peer ${peer} left`));
 - `established`
 
 ### 方法
-没有公用方法
+无公用方法
 
 ### 事件
 - `syncing (targetHeight)`
@@ -118,7 +118,7 @@ $.consensus.on('established', () => console.log('consensus established!'))
 ## Nimiq.Accounts
 
 ### 属性
-没有公用属性
+无公用属性
 
 ### 方法
 - `getBalance(address)`
@@ -185,7 +185,7 @@ $.blockchain.on('head-changed', () => {
 ## Nimiq.Mempool
 
 ### 属性
-没有公用属性
+无公用属性
 
 ### 方法
 - `pushTransaction(transaction)`
@@ -208,7 +208,7 @@ $.blockchain.on('head-changed', () => {
 - `createTransaction(recipientAddr, value, fee, nonce)`
 
 ### 事件
-没有事件
+无事件
 
 ### 示例
 创建一笔交易：
