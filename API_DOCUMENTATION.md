@@ -127,7 +127,7 @@ $.consensus.on('established', () => console.log('consensus established!'))
 - `async hash()`
 
 ### 事件
-- `<<base64(address)>> (balance, address)` 当地址余额改变
+- `<<base64(address)>> (balance, address)` 当地址余额改变时触发
 
 ### 示例
 查询帐户余额：
