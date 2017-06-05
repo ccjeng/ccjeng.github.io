@@ -20,7 +20,7 @@
 
 #### 执行 NodeJs 端
 
-要执行 NodeJs 端，你需要一个**公用可路由的IP位址**、**域名**和**SSL证书**（可从 [letsencrypt.org](https://letsencrypt.org/) 取得免费SSL证书，並执行 `clients/nodejs/index.js` 以开启NodeJs端。
+要执行 NodeJs 端，你需要一个**公用可路由的IP位址**、**域名**和**SSL证书**（可从 [letsencrypt.org](https://letsencrypt.org/) 取得免费SSL证书，並执行 `clients/nodejs/index.js` 以开启 NodeJs 端。
 
 ```bash
 cd clients/nodejs/
@@ -61,7 +61,7 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 
 #### 执行测试集
 - 此命令能在浏览器执行测试集 `gulp test`
-- 此命令能在NodeJs执行测试集 `jasmine`
+- 此命令能在 NodeJs 执行测试集 `jasmine`
 
 #### 执行 ESLint
 此命令能执行 ESLint JavaScript 代码检查器 `gulp eslint`
@@ -71,7 +71,7 @@ node index.js --host <hostname> --port <port> --key <privkey> --cert <certificat
 
 ## 贡献
 
-若你想贡献本项目，请遵循我们的 [行为守则](/.github/CONDUCT.md) 和 [贡献指引](/.github/CONTRIBUTING.md)
+若你想贡献本项目，请遵循我们的 [行为守则](/.github/CONDUCT.md) 和 [贡献准则](/.github/CONTRIBUTING.md)
 
 ## 许可
 
