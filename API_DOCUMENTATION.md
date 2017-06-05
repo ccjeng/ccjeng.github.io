@@ -14,7 +14,7 @@ Nimiq.init($ => {
 ### 安装的错误回应
 - `Nimiq.ERR_WAIT`: Nimiq核心实例已在相同来源的另一个窗口运行，当其他所有窗口都关闭时，将执行成功回调
 - `Nimiq.ERR_UNSUPPORTED`: 不支持此浏览器
-- `Nimiq.ERR_UNKNOWN`: 载入时发生未知错误
+- `Nimiq.ERR_UNKNOWN`: 载入时发生未知错误
 
 ```
 Nimiq.init($ => {
@@ -52,7 +52,7 @@ Nimiq.get().then($ => {
 - `钱包`: [Nimiq.Wallet](#wallet)
 - `挖矿机`: [Nimiq.Miner](#miner)
 
-### 方法
+### 方法
 没有公用方法
 
 ### 事件
@@ -70,7 +70,7 @@ Nimiq.get().then($ => {
 - `bytesReceived`
 - `bytesSent`
 
-### 方法
+### 方法
 - `connect()`
 - `disconnect()`
 
@@ -99,7 +99,7 @@ $.network.on('peer-left', peer => console.log(`Peer ${peer} left`));
 ### 属性
 - `established`
 
-### 方法
+### 方法
 没有公用方法
 
 ### 事件
@@ -120,13 +120,13 @@ $.consensus.on('established', () => console.log('consensus established!'))
 ### 属性
 没有公用属性
 
-### 方法
+### 方法
 - `getBalance(address)`
 - `commitBlock(block)`
 - `revertBlock(block)`
 - `async hash()`
 
-### 事件
+### 事件
 - `<<base64(address)>> (balance, address)` 当地址余额改变
 
 ### 示例
@@ -156,7 +156,7 @@ $.accounts.on('a09rjiARiVYh2zJS0/1pYKZg4/A=').then(balance => {
 - `path`
 - `busy`
 
-### 方法
+### 方法
 - `pushBlock(block)`
 - `getBlock(hash)`
 - `getNextCompactTarget()`
@@ -187,7 +187,7 @@ $.blockchain.on('head-changed', () => {
 ### 属性
 没有公用属性
 
-### 方法
+### 方法
 - `pushTransaction(transaction)`
 - `getTransaction(hash)`
 - `getTransactions(maxCount = 5000)`
@@ -204,7 +204,7 @@ $.blockchain.on('head-changed', () => {
 - `address`
 - `publicKey`
 
-### 方法
+### 方法
 - `createTransaction(recipientAddr, value, fee, nonce)`
 
 ### 事件
@@ -236,7 +236,7 @@ $.consensus.on('lost', () => $.miner.stopWork());
 - `address`
 - `hashrate`
 
-### 方法
+### 方法
 - `startWork()`
 - `stopWork()`
 
