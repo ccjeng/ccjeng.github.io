@@ -61,7 +61,7 @@ Nimiq.get().then($ => {
 
 <a name="network"></a>
 ## Nimiq.Network
-不会自动连网，需要呼叫 `$.network.connect()` 以连接网络
+不会自动连网，需要呼叫 `$.network.connect()` 以连接网络
 
 ### 属性
 - `peerCount`
@@ -85,7 +85,7 @@ Nimiq.get().then($ => {
 $.network.connect()
 ```
 
-监听连接：
+监听连接：
 ```
 $.network.on('peers-changed', () => console.log('Peers changed'));
 $.network.on('peer-joined', peer => console.log(`Peer ${peer} joined`));
