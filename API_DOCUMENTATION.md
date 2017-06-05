@@ -221,7 +221,7 @@ $.wallet.createTransaction(recipientAddr, value, fee, nonce).then(transaction =>
 
 <a name="miner"></a>
 ## Nimiq.Miner
-在共识已建立前不应该开始挖矿，当失去共识时停止挖矿。挖矿机不会强制执行此规则，但呼叫者应该确保此项行为。
+在共识已建立前不应开始挖矿，当失去共识时应停止挖矿。挖矿机不会强制执行此规则，但呼叫者应该确保此项行为。
 
 ```
 // 当共识已建立或再次建立时，自动开始挖矿
